@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:dio/dio.dart';
+//import 'package:dio/dio.dart';
 import 'package:http/http.dart' as http;
-import 'package:weather_app/model.dart';
+//import 'package:weather_app/model.dart';
 
 /*
 class ApiService {
