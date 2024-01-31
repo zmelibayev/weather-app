@@ -39,7 +39,7 @@ class _HomePage1State extends State<HomePage1> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('data'),
+          title: const Text('Api call'),
         ),
         body: newData != null
             ? ListView.builder(
