@@ -47,6 +47,7 @@ class _HomePage1State extends State<HomePage1> {
                 itemBuilder: (context, index) {
                   return ListTile(
                     title: Text(newData![index].cityName),
+                    subtitle: Text(newData![index].humidity.toString()),
                   );
                 },
               )
